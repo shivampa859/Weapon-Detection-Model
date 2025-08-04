@@ -41,20 +41,19 @@ Weapon-Detection-Model
 
 pip install -r "Streamlit web app/requirements.txt"
 
-
 python data/download_dataset.py
-
 
 cd "Streamlit web app"
 streamlit run app.py
 
-1.Upload an Image: Get the detected image with bounding boxes.
+## result
+ 1. Upload an Image: Get the detected image with bounding boxes.
 
-2.Upload a Video: Process video frames and download the annotated output.
+ 2. Upload a Video: Process video frames and download the annotated output.
 
 
 
-Future Improvements:-
+## Future Improvements:-
  1. Deploy on Streamlit Cloud.
 
  2. Integrate DeepSORT for real-time tracking.
