@@ -1,4 +1,4 @@
-# 🔫 Weapon Detection Model (Gun & Knife) using YOLOv8
+# Weapon Detection Model (Gun & Knife) using YOLOv8
 
 This project detects weapons (**guns & knives**) from CCTV footage and images using **YOLOv8**.  
 It is trained on a custom dataset from [Roboflow](https://universe.roboflow.com/shivam-1iztu/weapon-detection-cctv-v3-dataset-zthmt/dataset/1) and includes a **Streamlit web app** for real-time detection.
