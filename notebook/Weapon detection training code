@@ -1,0 +1,24 @@
+# STEP 1: Install required packages
+!pip install ultralytics roboflow
+
+# STEP 2: Import libraries
+from roboflow import Roboflow
+from ultralytics import YOLO
+
+# STEP 3: Download dataset from Roboflow
+rf = Roboflow(api_key="BUFfTMItRNwXfIg5UyTW")  # 🔑 Replace with your actual Roboflow API key
+project = rf.workspace("shivam-1iztu").project("weapon-detection-cctv-v3-dataset-zthmt")
+dataset = project.version(1).download("yolov8")
+
+# STEP 4: Train YOLOv8 model
+model = YOLO("yolov8m.pt")  # You can use yolov8s.pt, yolov8m.pt, or yolov8l.pt based on your system
+
+model.train(
+    data=f"{dataset.location}/data.yaml",
+    epochs=200,
+    imgsz=640,
+    batch=16,
+    project="weapons-detection",
+    name="yolov8n_v3",
+    pretrained=True
+)
