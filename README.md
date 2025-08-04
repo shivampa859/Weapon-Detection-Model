@@ -9,22 +9,22 @@ It is trained on a custom dataset from [Roboflow](https://universe.roboflow.com/
 
 Weapon-Detection-Model
 1. Streamlit web app/ # Web app
-    app.py # Streamlit detection app
-    requirements.txt # Dependencies for the app
+   1. app.py # Streamlit detection app
+   2. requirements.txt # Dependencies for the app
 
 2. data/ 
-    data.yaml # YOLO dataset config
-    download_dataset.py # Script to fetch dataset from Roboflow
+   1. data.yaml # YOLO dataset config
+   2. download_dataset.py # Script to fetch dataset from Roboflow
 
 3. notebook/ # Training notebook
-    Weapon detection training code.ipynb
+   1. Weapon detection training code.ipynb
 
 4. result/ # Outputs
-    Weapon Detection working video.mp4
-    best (12).pt # Trained YOLOv8 model weights
+   1. Weapon Detection working video.mp4
+   2. best (12).pt # Trained YOLOv8 model weights
 
-   README.md
-   gitignore
+5. README.md
+6. gitignore
 
 
 ---
