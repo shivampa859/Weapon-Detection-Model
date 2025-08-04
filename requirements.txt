@@ -1,0 +1,12 @@
+# YOLOv8 & Roboflow
+ultralytics==8.0.196
+roboflow==1.1.17
+
+# Streamlit App
+streamlit==1.37.0
+Pillow==10.3.0
+opencv-python==4.9.0.80
+
+# Utilities
+numpy==1.26.4
+pathlib==1.0.1
