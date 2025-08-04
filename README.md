@@ -61,8 +61,8 @@ Recall   	0.96
 
 
 Future Improvements:-
-Deploy on Streamlit Cloud.
+ 1. Deploy on Streamlit Cloud.
 
-Integrate DeepSORT for real-time tracking.
+ 2. Integrate DeepSORT for real-time tracking.
 
-Optimize for edge devices.
+ 3. Optimize for edge devices.
