@@ -48,16 +48,10 @@ python data/download_dataset.py
 cd "Streamlit web app"
 streamlit run app.py
 
-Upload an Image: Get the detected image with bounding boxes.
+1.Upload an Image: Get the detected image with bounding boxes.
 
-Upload a Video: Process video frames and download the annotated output.
+2.Upload a Video: Process video frames and download the annotated output.
 
-
-Model Performance:-
-Metric	  Score
-mAP@0.5	  0.964
-Precision	0.97
-Recall   	0.96
 
 
 Future Improvements:-
